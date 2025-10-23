@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "TinCertificationStatusAVRO",
+  "namespace": "com.thrivent.tax.lettermanager.model",
+  "fields": [
+    { "name": "taxClientId", "type": "long" },
+    { "name": "docTypeCode", "type": "string" },
+    { "name": "statusCode", "type": "string" },
+    { "name": "createdDate", "type": "string" },
+    { "name": "operatorIdCode", "type": "string" }
+  ]
+}
